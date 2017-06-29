@@ -5,7 +5,7 @@
     "main": "mix.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/adminarchitect/mix.git"
+        "url": "git@github.com:adminarchitect/mix.git"
     },
     "author": "endi1982@gmail.com",
     "license": "MIT",
