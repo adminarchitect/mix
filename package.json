@@ -1,6 +1,6 @@
 {
     "name": "adminarchitect-mix",
-    "version": "1.0",
+    "version": "1.0.4",
     "description": "Admin Architect Webpack Mix tasks.",
     "main": "mix.js",
     "repository": {

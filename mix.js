@@ -48,7 +48,8 @@ class AdminMix {
         this.Mix.webpackConfig({
             resolve: {
                 alias: {
-                    'jquery-ui/sortable': 'jquery-ui/ui/widgets/sortable',
+                    // Enable if using jquery-ui/sortable
+                    //'jquery-ui/sortable': 'jquery-ui/ui/widgets/sortable',
                 },
             },
             /* Do not load MomentJS locales */
