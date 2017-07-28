@@ -32,6 +32,8 @@
         "nestedSortable": "https://github.com/ilikenwf/nestedSortable",
         "selectize": "0.12.4",
         "tinymce": "4.6.4",
-	"vuex": "^2.3.1"
+	"vuex": "^2.3.1",
+	"vue-clip": "^1.0.0",
+	"axios": "^0.16.2"
     }
 }
