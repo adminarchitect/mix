@@ -38,10 +38,7 @@ class AdminMix {
     handleScripts() {
         this.Mix.js(AdminMix.resource('js/vendor.js'), AdminMix.asset('vendor.js'));
         this.Mix.js(AdminMix.resource('js/app.js'), AdminMix.asset('app.js'));
-        this.Mix.scripts([
-            AdminMix.resource('js/media/{app,helpers,templates}.js'),
-            AdminMix.resource('js/media/{controllers,services,directives}/**/*.js'),
-        ], AdminMix.asset('media.js'));
+        this.Mix.js(AdminMix.resource('js/media.js'), AdminMix.asset('media.js'));
     }
 
     handleAliases() {
