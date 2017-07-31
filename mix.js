@@ -1,6 +1,6 @@
 class AdminMix {
     constructor(Mix) {
-        this.Mix = Mix;
+        this.Mix = Mix || require('laravel-mix');
 
         this.handleAliases();
     }
